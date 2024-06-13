@@ -210,6 +210,11 @@ form {
 
 //contact
 #contact {
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 3rem 0;
+    }
     form {
         .flex {
             display: flex;

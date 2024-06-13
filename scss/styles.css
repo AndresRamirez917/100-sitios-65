@@ -198,6 +198,11 @@ form button {
   margin-bottom: 4rem;
 }
 
+#contact h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0;
+}
 #contact form .flex {
   display: flex;
   gap: 20px;
