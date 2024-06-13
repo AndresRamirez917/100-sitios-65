@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="/scss/styles.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="/scss/mobile.css">
     <title>PORTAFOLIO SIMPLE | Welcome</title>
@@ -17,7 +19,7 @@
                 <ul>
                     <li><a href="#bio">bio</a></li>
                     <li><a href="#projects">projects</a></li>
-                    <li><a href="#services">contact us</a></li>
+                    <li><a href="#services">services</a></li>
                     <li><a href="#contact">contact us</a></li>
                 </ul>
             </div>
@@ -35,19 +37,17 @@
     </header>
 
     <section id="bio">
-        <div class="container main-width">
-            <div class="bio-row flex">
-                <div class="row-1">
-                    <h2 class="subtitle">
-                        Lorem ipsum dolor sit amet consectetur.
-                    </h2>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui laborum rem corporis sed nostrum tenetur quae quas quaerat eos similique! Explicabo, temporibus? Ipsam dolore earum sapiente enim quis cumque totam, explicabo sint a labore vel, atque est dicta nisi quod quidem fugiat delectus harum necessitatibus exercitationem obcaecati similique. Aut, exercitationem!</p>
+        <div class="container">
+            <div class="bio-row flex main-width">
+                <div class="bio-text">
+                    <h3>A few words about me</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, impedit deserunt non minima sunt cumque id deleniti adipisci corporis excepturi eius quibusdam dolorum nisi doloribus labore, facere omnis, aliquam neque maiores atque. Reprehenderit! <br><br>
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, iusto nam esse voluptates unde culpa sit et dicta! Doloribus sed dolor ex porro iure! Tempore!</p>
                 </div>
-                    <img src="/images/about.jpg" alt="">
+                <img src="/images/about.jpg" alt="">
             </div>
         </div>
-           
     </section>
 
      <section id="projects">
@@ -58,12 +58,12 @@
                     <img src="/images/icon-camera.png" alt="">
                 </div>
                 <div class="box flex">
-                    <img src="/images/icon-calendar.png" alt="">
-                    <img src="/images/icon-camera.png" alt="">
+                    <img src="/images/icon-code.png" alt="">
+                    <img src="/images/icon-monitor.png" alt="">
                 </div>
                 <div class="box flex">
-                    <img src="/images/icon-calendar.png" alt="">
-                    <img src="/images/icon-camera.png" alt="">
+                    <img src="/images/icon-settings.png" alt="">
+                    <img src="/images/icon-zap.png" alt="">
                 </div>
             </div>
             <div class="projects-row">
@@ -87,19 +87,52 @@
             <h2>Lorem, ipsum dolor.</h2>
             <hr>
             <div class="services-row">
-                <div class="box">
-                    <img src="/images/portfolio-1.jpg" alt="">
+                <div class="boxx-1">
+                    <img src="/images/portfolio-2.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem perferendis eum excepturi ea itaque illum architecto placeat dolore enim doloremque?</p>
                 </div>
-                <div class="box">
-                    <img src="/images/portfolio-1.jpg" alt="">
+                <div class="boxx-2">
+                    <img src="/images/portfolio-2.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem perferendis eum excepturi ea itaque illum architecto placeat dolore enim doloremque?</p>
                 </div>
-                <div class="box">
-                    <img src="/images/portfolio-1.jpg" alt="">
+                <div class="boxx-3">
+                    <img src="/images/portfolio-3.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem perferendis eum excepturi ea itaque illum architecto placeat dolore enim doloremque?</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container main-width">
+            <h2>contact us</h2>
+            <form action="">
+                <div class="form-group flex">
+                    <div class="flex-box-1">
+                        <label for="">Nombre</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <div class="flex-box-1">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="form-group flex">
+                    <div class="flex-box-1">
+                        <label for="">Fecha</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="flex-box-1">
+                        <label for="">Hora</label>
+                        <input type="time" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder=""></textarea>
+                </div>
+                <button class="btn">submit</button>
+            </form>
         </div>
     </section>
     

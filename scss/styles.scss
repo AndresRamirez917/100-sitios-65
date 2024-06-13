@@ -84,14 +84,22 @@ form {
     }
     button {
         width: 100%;
-        background: #ccc;
+        background: #090909;
+        margin-bottom: 2rem;
     }
 }
+
+//iconos font awesome
+::placeholder {
+    font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f007";
+    text-align: right;
+}
+
 
 //mainheader
 #mainheader {
     background: linear-gradient(blue, rgb(143, 143, 241));
-    height: 80vh;
+    padding-bottom: 2rem;
     .navbar {
         .logo {
             width: 50px;
@@ -133,23 +141,23 @@ form {
 
 //bio
 #bio {
- .container {
-    display: flex;
+    margin: 9rem 0;
     .bio-row {
-        margin: 4rem 0;   
-        h2 {
-            margin-bottom: 1rem;
+        img {
+            width: 60%;
         }
-        hr {
-            width: 50%;
-            margin-bottom: 1rem;
+        .bio-text {
+            h3 {
+                margin-bottom: 3rem;
+                font-size: 2rem;
+                font-weight: 400;
+            }
+            p {
+                width: 100%;
+                line-height: 20px;
+            }
         }
-            img {
-                width: 50%;
-            }    
     }
- }
-    
 }
 
 //services
@@ -169,9 +177,9 @@ form {
         text-align: center;
         margin: 3rem 0;
         display: flex;
+        flex: 1;
         gap: 50px;
-        img {
-            margin: 0 auto;
+        img {  
             margin-bottom: 1rem;
         }
         p {
@@ -200,11 +208,25 @@ form {
  }
 }
 
+//contact
+#contact {
+    form {
+        .flex {
+            display: flex;
+            gap: 20px;
+        }
+        .flex-box-1 {
+            flex: 1;
+        }
+    }
+}
+
 //footer
 #footer {
     .social-row {
         width: 20%;
         margin: 0 auto;
+        margin-bottom: 1rem;
     }
     text-align: center;
     padding: 3rem 0;
